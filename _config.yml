@@ -82,6 +82,11 @@ social:
   ## zhihu: http://www.zhihu.com/people/your-user-name
   # 等等
 
+# title, chinese available
+links_title: Links
+# links
+links:
+  Zippera's blog: http://zipperary.com/
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
