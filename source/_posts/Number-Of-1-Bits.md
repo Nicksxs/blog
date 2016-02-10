@@ -3,15 +3,15 @@ date: 2015-03-11 17:02:58
 categories: leetcode
 tags: [leetcode, c++]
 ---
-###[Number of 1 Bits ](https://leetcode.com/problems/number-of-1-bits/)
-####Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight). For example, the 32-bit integer '11' has binary representation  ``00000000000000000000000000001011``, so the function should return 3.
+### [Number of 1 Bits ](https://leetcode.com/problems/number-of-1-bits/)
+#### Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight). For example, the 32-bit integer '11' has binary representation  ``00000000000000000000000000001011``, so the function should return 3.
 <!--more-->
 
-###分析
+### 分析
 从1位到2位到4位逐步的交换
 
 ---
-###code
+### code
 ``` C++
 int hammingWeight(uint32_t n) {
         const uint32_t m1  = 0x55555555; //binary: 0101...  

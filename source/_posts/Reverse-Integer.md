@@ -3,14 +3,14 @@ date: 2015-03-13 17:22:20
 categories: leetcode
 tags: [leetcode, c++]
 ---
-###[Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-####Reverse digits of an integer.
+### [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+#### Reverse digits of an integer.
 
 Example1: x = 123, return 321
 Example2: x = -123, return -321
 
 <!--more-->
-####spoilers
+#### spoilers
 
 Have you thought about this?
 Here are some good questions to ask before coding. Bonus points for you if you have already thought through this!
@@ -22,7 +22,7 @@ Did you notice that the reversed integer might overflow? Assume the input is a 3
 For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 ---
-###code
+### code
 ``` C++
 class Solution {
 public:

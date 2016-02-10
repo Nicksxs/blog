@@ -3,7 +3,7 @@ date: 2014-12-30 16:50:01
 categories: leetcode
 tags: [leetcode, C++]
 ---
-###problem
+### problem
 ``` 
 Clone a graph. Input is a Node pointer. Return the Node pointer of the cloned graph.
 
@@ -14,7 +14,7 @@ vector neighbors;
 ```
 
 <!--more-->
-###code
+### code
 
 ``` c++
 typedef unordered_map<Node *, Node *> Map;
@@ -50,7 +50,7 @@ Node *clone(Node *graph) {
     return graphCopy;
 }
 ```
-###anlysis
+### anlysis
 using the Breadth-first traversal
 and use a map to save the neighbors not to be duplicated.
 

@@ -6,11 +6,11 @@ tags: [leetcode, c++]
 **Longest Substring Without Repeating Characters **
 
 <!-- more -->
-###description
+### description
 Given a string, find the length of the longest substring without repeating characters.   
 For example, the longest substring without repeating letters for "abcabcbb" is "abc",   
 which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.  
-###分析
+### 分析
 [源码](http://www.cnblogs.com/dollarzhaole/p/3155712.html)这次是参考了这个代码，  
 tail 表示的当前子串的起始点位置，tail从-1开始就包括的串的长度是1的边界。其实我  
 也是猜的（逃

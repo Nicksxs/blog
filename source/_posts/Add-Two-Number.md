@@ -3,7 +3,7 @@ date: 2015-04-14 17:40:10
 categories: leetcode
 tags: [leetcode, c++]
 ---
-###problem
+### problem 
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 **Input**:`(2 -> 4 -> 3) + (5 -> 6 -> 4)`
@@ -17,7 +17,7 @@ You are given two linked lists representing two non-negative numbers. The digits
 时候还是会循环操作，在链表太大的时候可能会有问题，就这样（逃
 原来是有个小错误没发现，改进后的代码也AC了，棒棒哒！
 
-###正确代码
+### 正确代码
 ```C++
 /**
  * Definition for singly-linked list.
@@ -56,7 +56,7 @@ public:
 };
 ```
 
-###失败的代码
+### 失败的代码
 ```C++
 /**
  * Definition for singly-linked list.

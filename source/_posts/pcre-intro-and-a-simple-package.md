@@ -3,7 +3,7 @@ date: 2015-01-16 14:30:20
 categories: C++
 tags: [mfc, c++]
 ---
-###[Pcre](http://www.pcre.org/)
+### [Pcre](http://www.pcre.org/)
 > Perl Compatible Regular Expressions (PCRE) is a regular  
  expression C library inspired by the regular expression  
  capabilities in the Perl programming language, written   
@@ -12,10 +12,10 @@ tags: [mfc, c++]
 因为最近工作内容的一部分需要做字符串的识别处理，所以就顺便用上了之前在PHP中用过的正则，在C/C++中本身不包含正则库，这里使用的pcre，对MFC开发，在[这里](http://www.psyon.org/projects/pcre-win32/index.php)提供了静态链接库，在引入lib跟.h文件后即可使用。
 <!--more-->
 
-###Regular Expression Syntax
+### Regular Expression Syntax
 然后是一些[正则语法](http://www.pcre.org/original/doc/html/pcresyntax.html)，官方的语法文档比较科学严谨，特别是对类似于贪婪匹配等细节的说明，当然一般的使用可以在网上找到很多匹配语法，例如[这个](http://www.regextester.com/pregsyntax.html)。
 
-###PCRE函数介绍
+### PCRE函数介绍
 
 >pcre_compile
 原型：
